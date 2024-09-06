@@ -1,22 +1,22 @@
  @font-face {
     font-family: china;
-    src: url("NeueMachina-Regular.otf");
+    src: url(NeueMachina-Regular.woff);
 }
 
 @font-face {
     font-family: Founder;
-    src: url(FoundersGroteskCondensed-Bold.ttf);
+    src: url(FoundersGroteskCondensed-Bold.woff);
 }
 
 
 @font-face {
-    font-family: Moranga;
-    src: url(Fontspring-DEMO-moranga-bold-iF663c8d967a408.otf);
+    font-family: Chunk;
+    src: url(Chunkfive.woff);
 }
 
-@font-face {
+@font-face{
     font-family: bebas;
-    src: url(Bebas-Regular.otf);
+    src: url(Bebas-Regular.woff);
 }
 
 *{

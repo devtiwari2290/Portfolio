@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { motion } from "framer-motion";
 import "./App.css"
-import Pic from "../assets/Profile3.jpg"
+import Pic from "../assets/Profile3.webp"
 
 
 

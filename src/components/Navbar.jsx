@@ -20,12 +20,12 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar fixed w-full h-14 bg-[#111111] lg:h-20 z-[10] text-white flex justify-between items-center px-5 md:px-10' style={{ fontFamily: "china" }}>
+      <nav className='navbar fixed w-full h-16 bg-[#111111] lg:h-20 z-[10] text-white flex justify-between items-center px-5 md:px-10' style={{ fontFamily: "china" }}>
         {/* Logo */}
         <div className='logo flex justify-center items-center'>
           <h1 className='text-sm uppercase lg:text-2xl bg-line bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500'>
-            <span className=' text-lg lg:text-3xl  '>D</span>ev
-            <span className=' text-lg lg:text-3xl '>T</span>iwari
+            <span className=' text-xl lg:text-3xl  '>D</span>ev
+            <span className=' text-xl lg:text-3xl '>T</span>iwari
           </h1>
         </div>
 
@@ -81,7 +81,7 @@ function Navbar() {
         <div className='social-link flex justify-center items-center gap-5'>
           <Link 
             to="https://www.linkedin.com/in/dev-tiwari-3bb04a297/" 
-            className="linkedin text-blue-500 text-base lg:text-2xl" 
+            className="linkedin text-blue-500 text-xl lg:text-2xl" 
             target='_blank'
           >
             <FaLinkedin />
@@ -89,7 +89,7 @@ function Navbar() {
 
           <Link 
             to="https://github.com/devtiwari2290" 
-            className='github text-base lg:text-2xl' 
+            className='github text-xl lg:text-2xl' 
             target='_blank'
           >
             <FaGithub />
@@ -97,7 +97,7 @@ function Navbar() {
 
           <Link 
             to="https://www.instagram.com/__i__m__prince24/?hl=en" 
-            className='instagram text-pink-500 text-base lg:text-2xl' 
+            className='instagram text-pink-500 text-xl lg:text-2xl' 
             target='_blank'
           >
             <FaInstagram />
