@@ -1,7 +1,9 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
+import { motion } from "framer-motion";
 import "./App.css"
+
 
 
 function Home() {
@@ -11,12 +13,20 @@ function Home() {
 
     useGSAP(()=>{
       gsap.to(".marque",{
-         duration: 7,
-         transform : "translateX(-100%)",
-         repeat: -1,
-         ease:"none"
-        
-        });
+        scrollTrigger:{
+          trigger: '.marque',
+          start: "top 50%",
+          end: "bottom 50%",
+          scrub: 1,
+        }
+      })
+
+      gsap.to(".marque",{
+        duration: 5,
+        transform : "translateX(-100%)",
+        repeat: -1,
+        ease:"none"
+      })
 
         gsap.to(".marque img",{
           rotate: 180
@@ -27,7 +37,7 @@ function Home() {
   else{
     useGSAP(()=>{
       gsap.to(".marque",{
-         duration: 7,
+         duration: 5,
          transform : "translateX(0%)",
          repeat: -1,
          ease:"none"
@@ -41,11 +51,14 @@ function Home() {
 
    
   }
-       
+
+
+
   return (
     <div className="home w-full max-h-screen bg-[#111111] pt-[100px] relative z-[-10] lg:pt-[150px]">
-      <div className="max-w-screen h-[300px]  px-10  object-cover lg:px-0 lg:w-[800px] lg:h-[400px] rounded-lg object-cover   lg:object-contain  mx-auto">
-        <img className=" h-full mx-auto  object-cover" src="src\assets\Profile3.jpg" alt="" />
+
+      <div className="max-w-screen h-[300px]  px-8  object-cover lg:px-0 lg:w-[800px] lg:h-[400px] rounded-lg object-cover   lg:object-contain  mx-auto ">
+        <img  className="max-w-full h-full mx-auto object-cover  lg:object-contain " src="src\assets\Profile3.jpg " alt="" />
         </div>
       <div className="move bg-[#D8FF08] flex shrink py-2 overflow-hidden mt-10  lg:mt-10">
         <div className="marque flex shrink-0 justify-center items-center gap-10  py-2 px-5 lg:py-5 px-10 ">

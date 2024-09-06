@@ -6,6 +6,8 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Routes from './routes/Routess'
+import LocomotiveScroll from 'locomotive-scroll';
+
 
 function App() {
   return (

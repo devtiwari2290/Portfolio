@@ -9,14 +9,14 @@ const Projects = () =>{
     {id:1, image:"https://mir-s3-cdn-cf.behance.net/project_modules/1400/44f38293168233.5e5e2974b43e4.jpg",  title:"Movie-App",  desc:" Movieo is a fully responsive Movie Application designed for users by providing New release movies , Tv Shows and users can search & watch their favourites movies and tv shows", view:"https://movie-app-nine-virid-51.vercel.app/"},
 
 
-    {id:2, image:"https://images.ui8.net/uploads/group-812_1617800675857.png", title:"Social Media App", desc:"Social Media App is a web application that enables users to connect with each other. The app allows users to chat with each other & share their thoughts, posts and images with other users." },
+    {id:2, image:"https://images.ui8.net/uploads/group-812_1617800675857.png", title:"Social Media App", desc:"Social Media App is a web application that enables users to connect with each other. The app allows users to chat with each other & share their thoughts, posts and images with other users.", view:"https://www.linkedin.com/posts/dev-tiwari-3bb04a297_excited-to-share-my-latest-full-stack-activity-7219017544123244544-TITZ?utm_source=share&utm_medium=member_desktop" },
 
-    {id:3, image:"https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffr0faf8t0j2rxf53dwxm.jpg", title:"Animated Website", desc:"Website with a great UI design and have animated background and elements for better user  by using Gsap & Locomotive." }
+    {id:3, image:"https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffr0faf8t0j2rxf53dwxm.jpg", title:"Animated Website", desc:"Website with a great UI design and have animated background and elements for better user  by using Gsap & Locomotive.", view:"https://www.linkedin.com/posts/dev-tiwari-3bb04a297_mernstackdevelopement-webdevelopment-activity-7174756927854284800-7cU9?utm_source=share&utm_medium=member_desktop" }
   ]
 
 
   return (
-    <div className='projects w-full min-h-screen bg-[#111111] pt-12 z-[-10] pb-10 lg:pb-0'>
+    <div className='projects w-full min-h-screen bg-[#111111] pt-12  pb-10 lg:pb-0'>
       <h1 className='text-center text-3xl leading-normal pt-10 tracking-wide font-bold text-white  px-5 lg:text-6xl lg:px-14 lg:pt-20 tracking-normal  md:text-4xl sm:text-3xl'>Here Are <span className='text-rose-400	'> Some </span>  Of My <span className='text-[#00df9a]'>Projects</span>  </h1>
       {/* cards section */}
 
@@ -30,10 +30,10 @@ const Projects = () =>{
               <img
                 src={image}
                 alt=""
-                className="max-w-[250px] h-[250px] rounded-lg object-cover group-hover:scale-110 duration-500 lg:max-w-[350px] lg:h-[350px]"
+                className="max-w-[250px] h-[250px] rounded-lg object-cover group-hover:scale-110 duration-500 lg:max-w-[350px] lg:h-[350px] "
               />
               {/* overlay section */}
-              <div className="absolute left-0 top-[-100%] opacity-0 group-hover:opacity-100 group-hover:top-[0] p-4 w-full h-full bg-black/60 group-hover:backdrop-blur-sm duration-500">
+              <div className="absolute left-0 top-[-100%] opacity-0 group-hover:opacity-100 group-hover:top-[0] p-4 w-full h-full bg-black/60 group-hover:backdrop-blur-sm duration-500 ">
                 <div className="space-y-4">
                   <Slide cascade>
                     <h1 className="text-xl font-bold text-wrap whitespace-nowrap lg:text-3xl ">{title}</h1>

@@ -8,6 +8,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
 import { Routes, Route } from 'react-router-dom';
+import { style } from 'framer-motion/client';
 
 
 function Navbar() {
@@ -19,7 +20,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar fixed w-full h-14 bg-[#222222] lg:h-20  text-white flex justify-between items-center px-5 md:px-10' style={{ fontFamily: "china" }}>
+      <nav className='navbar fixed w-full h-14 bg-[#111111] lg:h-20 z-[10] text-white flex justify-between items-center px-5 md:px-10' style={{ fontFamily: "china" }}>
         {/* Logo */}
         <div className='logo flex justify-center items-center'>
           <h1 className='text-sm uppercase lg:text-2xl bg-line bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500'>
@@ -29,7 +30,7 @@ function Navbar() {
         </div>
 
         {/* Menu Links - Hidden on small screens */}
-        <div className={`menu-link  lg:flex  items-center  ${showMenu ? 'flex bg-neutral-900 ' : 'hidden'} flex-col lg:flex-row absolute  lg:static top-[56px] py-5 gap-5  left-0 w-full  lg:w-auto  lg:bg-transparent`}>
+        <div className={`menu-link  lg:flex   items-center  ${showMenu ? 'flex bg-[#111111] ' : 'hidden'} flex-col lg:flex-row absolute  lg:static top-[55px] py-5 gap-5  left-0 w-full  lg:w-auto  lg:bg-transparent`}>
           <NavLink
             style={(e) => ({
               color: e.isActive ? "red" : "white"
