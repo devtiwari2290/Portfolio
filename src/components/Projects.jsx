@@ -17,7 +17,7 @@ const Projects = () =>{
 
   return (
     <div className='projects w-full min-h-screen bg-[#111111] pt-12  pb-10 lg:pb-0'>
-      <h1 className='text-center text-3xl leading-normal pt-10 tracking-wide font-bold text-white  px-5 lg:text-6xl lg:px-14 lg:pt-20 tracking-normal  md:text-4xl sm:text-3xl'>Here Are <span className='text-rose-400	'> Some </span>  Of My <span className='text-[#00df9a]'>Projects</span>  </h1>
+      <h1 className='text-center text-3xl leading-normal pt-10 tracking-wide font-bold text-white  px-5 lg:text-6xl lg:px-14 lg:pt-20 tracking-normal  md:text-4xl sm:text-3xl' style={{ fontFamily: "china" }}>Here Are <span className='text-rose-400	'> Some </span>  Of My <span className='text-[#00df9a]'>Projects</span>  </h1>
       {/* cards section */}
 
       <div className="mt-5  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6 lg:mt-20 ">

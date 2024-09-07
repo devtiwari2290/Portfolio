@@ -6,7 +6,6 @@ import "./App.css"
 import Pic from "../assets/Profile3.webp"
 
 
-
 function Home() {
 
   if(typeof window !== "undefined"){
@@ -63,22 +62,22 @@ function Home() {
         </div>
       <div className="move bg-[#D8FF08] flex shrink py-2 overflow-hidden mt-10  lg:mt-10">
         <div className="marque flex shrink-0 justify-center items-center gap-10  py-2 px-5 lg:py-5 px-10 ">
-          <h1 className=" text-lg lg:text-5xl text-center font-bold" style={{ fontFamily: "china" }}>WELCOME TO MY PORTFOLIO</h1>
+          <h1 className=" text-lg lg:text-5xl text-center font-semibold" style={{ fontFamily: "Saira Condensed, sans-serif" }}>WELCOME TO MY PORTFOLIO</h1>
           <img className="h-[20px] lg:h-[50px]" src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="" />
         </div>
 
         <div  className="marque flex shrink-0 justify-center items-center gap-10  py-2 px-5 lg:py-5 px-10">
-          <h1 className="text-lg  lg:text-5xl text-center font-bold" style={{ fontFamily: "china" }}>WELCOME TO MY PORTFOLIO</h1>
+          <h1 className="text-lg  lg:text-5xl text-center font-bold" style={{ fontFamily: "Saira Condensed, sans-serif" }}>WELCOME TO MY PORTFOLIO</h1>
           <img className="h-[20px] lg:h-[50px]" src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="" />
         </div>
 
         <div  className="marque flex shrink-0 justify-center items-center gap-10  py-2 px-5 lg:py-5 px-10">
-          <h1 className="text-lg lg:text-5xl text-center font-bold" style={{ fontFamily: "china" }}>WELCOME TO MY PORTFOLIO</h1>
+          <h1 className="text-lg lg:text-5xl text-center font-bold" style={{ fontFamily: "Saira Condensed, sans-serif" }}>WELCOME TO MY PORTFOLIO</h1>
           <img className="h-[20px] lg:h-[50px]" src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="" />
         </div>
 
         <div  className="marque flex shrink-0 justify-center items-center gap-10 py-2 px-5 lg:py-5 px-10 ">
-          <h1 className="text-lg lg:text-5xl text-center font-bold" style={{ fontFamily: "china" }}>WELCOME TO MY PORTFOLIO</h1>
+          <h1 className="text-lg lg:text-5xl text-center font-bold" style={{ fontFamily: "Saira Condensed, sans-serif" }}>WELCOME TO MY PORTFOLIO</h1>
           <img className="h-[20px] lg:h-[50px]" src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="" />
         </div>
 
