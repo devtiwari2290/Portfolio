@@ -2,3 +2,112 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* @font-face {
+    font-family: china;
+    src: url(NeueMachina-Regular.woff);
+}
+
+@font-face {
+    font-family: Founder;
+    src: url(FoundersGroteskCondensed-Bold.woff);
+}
+
+
+@font-face {
+    font-family: Chunk;
+    src: url(Chunkfive.woff);
+}
+
+@font-face{
+    font-family: bebas;
+    src: url(Bebas-Regular.woff);
+} */
+
+.contact h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.about{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navbar h1{
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+.navbar span{
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.menu-link{
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+.home {
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+
+
+
+.skills {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+
+.frontend {
+    font-family: "Red Rose", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.backend {
+    font-family: "Red Rose", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tools {
+    font-family: "Red Rose", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects {
+    font-family: "Red Rose", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+    
+    
+    
+
+
+
+
+  
