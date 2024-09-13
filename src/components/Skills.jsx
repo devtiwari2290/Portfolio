@@ -41,7 +41,7 @@ const Skills = () => {
 
   return (
     <div className="w-full min-h-screen bg-[#222222] pb-10 pt-20 ">
-      <h1 className="skills text-2xl font-extrabold text-white lg:pt-10  px-5 lg:text-6xl lg:px-14  tracking-normal  md:text-4xl sm:text-3xl">
+      <h1 className="skills text-4xl font-extrabold text-white lg:pt-10  px-5 lg:text-6xl lg:px-14  tracking-normal  md:text-4xl sm:text-3xl">
         Things I'm <span className="text-sky-400">good</span> at
       </h1>
       <p className="text-sm font-bold text-white px-6 tracking-wide lg:text-3xl lg:px-16 pt-2">
@@ -81,7 +81,7 @@ const Skills = () => {
                 key={index}
               >
                 <img
-                  className=" w-[55px] h-[55px] object-cover lg:w-[70px] lg:h-[70px]"
+                  className=" w-[60px] h-[60px] object-cover lg:w-[70px] lg:h-[70px]"
                   src={item.image}
                   alt=""
                 />
@@ -124,7 +124,7 @@ const Skills = () => {
                 key={index}
               >
                 <img
-                  className="w-[55px] h-[55px]  lg:w-[65px] h-[65px]"
+                  className="w-[60px] h-[60px]  lg:w-[65px] h-[65px]"
                   src={item.image}
                   alt=""
                 />
@@ -167,7 +167,7 @@ const Skills = () => {
                 key={index}
               >
                 <img
-                  className="w-[55px] h-[55px]  lg:w-[65px] h-[65px] object-cover "
+                  className="w-[60px] h-[60px]  lg:w-[65px] h-[65px] object-cover "
                   src={item.image}
                   alt=""
                 />

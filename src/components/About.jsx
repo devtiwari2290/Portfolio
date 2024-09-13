@@ -45,7 +45,7 @@ const About = () => {
           <h2 className="text-xl text-white text-center leading-loose	lg:text-5xl lg:leading-loose ">
             Hi !
           </h2>
-          <h3 className="text-xl text-white text-center font-extrabold  tracking-widest leading-loose lg:text-5xl font-extrabold lg:leading-loose">
+          <h3 className="text-2xl text-white text-center font-extrabold  tracking-widest leading-loose lg:text-5xl font-extrabold lg:leading-loose">
             I'm Dev Tiwari, a Full Stack Developer and a UI/UX <br /> designer.
             I specialize in about building web applications and UI/UX design &
             animations. I have a passion for creating visually appealing and
