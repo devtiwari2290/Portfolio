@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Contact() {
   return (
     <div className="contact w-full  min-h-screen pb-6 lg:pb-0 md:h-[45vh] sm:h-[30vh] pt-12  lg:min-h-[100vh] bg-[#393939] lg:pt-20  ">
-      <h1 className="contact text-6xl px-7 pt-10 lg:pt-10 font-bold text-[#FFFFFF] text-center leading-normal  text-lowercase lg:text-9xl md:text-7xl sm:text-6xl lg:leading-normal lg:px-40 md:leading-normal sm:leading-normal">
+      <h1 className="contact text-7xl px-7 pt-10 lg:pt-10 font-bold text-[#FFFFFF] text-center leading-normal  text-lowercase lg:text-9xl md:text-7xl sm:text-6xl lg:leading-normal lg:px-40 md:leading-normal sm:leading-normal">
         {" "}
         you can get in touch with me via{" "}
         <Link to="mailto:devrajtiwari229@gmail.com" target="_blank">
