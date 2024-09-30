@@ -37,7 +37,7 @@ const Projects = () => {
         "https://imgs.search.brave.com/t_E8QMVlVgVMsrFyxvYlcoDfNvvnodEMlOloe24BG8k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYXd3d2FyZHMu/Y29tL2F3YXJkcy9z/dWJtaXNzaW9ucy8y/MDIzLzAyLzYzZWY1/MTRjZWVmMjcyMjU1/NDA1NjcuanBn",
       title: "We Think Elastic",
       desc: "Website with a great UI design and have animated background and elements for better user  by using Gsap & Locomotive.",
-      view: "https://devtiwari2290.github.io/WE-THINK-ELASTIC/",
+      view: "https://www.linkedin.com/posts/dev-tiwari-3bb04a297_mernstackdeveloper-mentorship-webdesign-activity-7168129390705426432-RORJ?utm_source=share&utm_medium=member_android",
     },
   ];
 
