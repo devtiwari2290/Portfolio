@@ -30,10 +30,19 @@ const Projects = () => {
       desc: "Website with a great UI design and have animated background and elements for better user  by using Gsap & Locomotive.",
       view: "https://www.linkedin.com/posts/dev-tiwari-3bb04a297_mernstackdevelopement-webdevelopment-activity-7174756927854284800-7cU9?utm_source=share&utm_medium=member_desktop",
     },
+
+    {
+      id: 4,
+      image:
+        "https://cdn.dribbble.com/userupload/12951483/file/original-f34210b246e09162aaf6bf9bb9eb4483.png?resize=2048x1536",
+      title: "Flight Booking Website",
+      desc: "Website with a great UI design & including carousel slider for sliding the images for better user experience as its has date and selection of flights, hotel booking and more features.",
+      view: "https://flight-booking-website-seven.vercel.app/",
+    },
   ];
 
   return (
-    <div className="projects w-full min-h-screen bg-[#111111] pt-12  pb-10 lg:pb-0">
+    <div className="projects w-full min-h-screen bg-[#111111] pt-12  pb-10 lg:pb-10">
       <h1 className="text-center text-3xl leading-normal pt-10 tracking-wide font-bold text-white  px-5 lg:text-6xl lg:px-14 lg:pt-20 tracking-normal  md:text-4xl sm:text-3xl">
         Here Are <span className="text-rose-400	"> Some </span> Of My{" "}
         <span className="text-[#00df9a]">Projects</span>{" "}
