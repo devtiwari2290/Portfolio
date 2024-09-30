@@ -25,19 +25,19 @@ const Projects = () => {
     {
       id: 3,
       image:
-        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffr0faf8t0j2rxf53dwxm.jpg",
-      title: "Animated Website",
-      desc: "Website with a great UI design and have animated background and elements for better user  by using Gsap & Locomotive.",
-      view: "https://www.linkedin.com/posts/dev-tiwari-3bb04a297_mernstackdevelopement-webdevelopment-activity-7174756927854284800-7cU9?utm_source=share&utm_medium=member_desktop",
+        "https://cdn.dribbble.com/userupload/12951483/file/original-f34210b246e09162aaf6bf9bb9eb4483.png?resize=2048x1536",
+      title: "Flight Booking ",
+      desc: "Website with a great UI design, including carousel slider for sliding the images for better user experience as its has date and selection of flights, hotel booking and more features.",
+      view: "https://flight-booking-website-seven.vercel.app/",
     },
 
     {
       id: 4,
       image:
-        "https://cdn.dribbble.com/userupload/12951483/file/original-f34210b246e09162aaf6bf9bb9eb4483.png?resize=2048x1536",
-      title: "Flight Booking Website",
-      desc: "Website with a great UI design & including carousel slider for sliding the images for better user experience as its has date and selection of flights, hotel booking and more features.",
-      view: "https://flight-booking-website-seven.vercel.app/",
+        "https://imgs.search.brave.com/t_E8QMVlVgVMsrFyxvYlcoDfNvvnodEMlOloe24BG8k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYXd3d2FyZHMu/Y29tL2F3YXJkcy9z/dWJtaXNzaW9ucy8y/MDIzLzAyLzYzZWY1/MTRjZWVmMjcyMjU1/NDA1NjcuanBn",
+      title: "We Think Elastic",
+      desc: "Website with a great UI design and have animated background and elements for better user  by using Gsap & Locomotive.",
+      view: "https://devtiwari2290.github.io/WE-THINK-ELASTIC/",
     },
   ];
 
