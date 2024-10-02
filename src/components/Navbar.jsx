@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import { Routes, Route } from "react-router-dom";
 import { style } from "framer-motion/client";
 import resume from "../assets/Resume.pdf";
+import { FaFileDownload } from "react-icons/fa";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -93,10 +94,13 @@ function Navbar() {
             target="_blank"
             download={true}
             onClick={toggleMenu}
-            class="lg:hidden py-2 px-4  lg:px-6 lg:py-2  bg-blue-500 text-white font-bold rounded-lg shadow-lg transition duration-300 ease-in-out shadow-blue-500/50"
+            class="resume lg:hidden py-2 px-4 lg:px-6 lg:py-2 text-white font-bold rounded-3xl "
             style={{ fontFamily: "china" }}
           >
-            <span className="text-base lg:text-xl">Resume 📩</span>
+            <div className="flex items-center gap-2">
+              <span className="text-base lg:text-xl">get my resume</span>
+              <FaFileDownload className="text-xl text-white" />
+            </div>
           </Link>
         </div>
 
@@ -107,10 +111,13 @@ function Navbar() {
             target="_blank"
             download={true}
             onClick={toggleMenu}
-            class="hidden lg:block  py-2 px-4  lg:px-6 lg:py-2  bg-blue-600 text-white font-bold rounded-lg shadow-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:shadow-blue-500/50 focus:outline-none focus:ring-4 focus:ring-blue-300"
+            class="resume hidden lg:block   lg:px-5 lg:py-2  text-white font-bold rounded-3xl "
             style={{ fontFamily: "china" }}
           >
-            <span className="text-sm lg:text-xl">Resume 📩</span>
+            <div className="flex items-center gap-2">
+              <span className="text-base lg:text-xl">get my resume</span>
+              <FaFileDownload className="text-2xl text-white" />
+            </div>
           </Link>
           <Link
             to="https://www.linkedin.com/in/dev-tiwari-3bb04a297/"

@@ -3,7 +3,6 @@ import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./App.css";
-import { div } from "three/webgpu";
 
 const About = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -42,7 +41,7 @@ const About = () => {
     <>
       <div className="about w-full min-h-screen bg-[#111111]  pt-14 lg:pt-24 pb-10">
         <div className="max-w-screen-lg mx-auto pt-10 lg:pt-0 w-full h-full text-white whitespace-nowrap text-wrap tracking-widest px-7 lg:px-0">
-          <h2 className="text-xl text-white text-center leading-loose	lg:text-5xl lg:leading-loose ">
+          <h2 className="text-2xl text-white text-center leading-loose	lg:text-5xl lg:leading-loose ">
             Hi !
           </h2>
           <h3 className="text-2xl text-white text-center font-extrabold  tracking-widest leading-loose lg:text-5xl font-extrabold lg:leading-loose">

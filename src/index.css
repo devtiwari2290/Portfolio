@@ -103,6 +103,12 @@
     font-style: normal;
 }
  
+.resume{
+    box-shadow: 0px 0px 14px #42D4EA;
+    background-color:#42D4EA;
+    backdrop-filter: blur(10px);
+
+}
     
     
     
