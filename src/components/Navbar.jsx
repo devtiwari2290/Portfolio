@@ -27,10 +27,12 @@ function Navbar() {
       >
         {/* Logo */}
         <div className="logo flex justify-center items-center">
-          <h1 className="text-base uppercase lg:text-2xl bg-line bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
-            <span className=" text-2xl lg:text-3xl  ">D</span>ev
-            <span className=" text-2xl lg:text-3xl ">T</span>iwari
-          </h1>
+          <Link to={"/"}>
+            <h1 className="text-base uppercase lg:text-2xl bg-line bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
+              <span className=" text-2xl lg:text-3xl  ">D</span>ev
+              <span className=" text-2xl lg:text-3xl ">T</span>iwari
+            </h1>
+          </Link>
         </div>
 
         {/* Menu Links - Hidden on small screens */}
