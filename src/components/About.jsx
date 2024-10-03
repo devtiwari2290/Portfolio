@@ -1,46 +1,28 @@
-import React from "react";
-import { useGSAP } from "@gsap/react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React, { useEffect } from "react";
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
 
 const About = () => {
-  gsap.registerPlugin(ScrollTrigger);
-
-  useGSAP(function () {
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: "#two",
-        start: "-30%, 50%",
-        end: "100% , 50%",
-        scrub: 1,
-      },
-    });
-
-    tl.to("#text-area-hover h1", {
-      width: "100%",
-    });
-
-    tl.to("#text-area-hover h2", {
-      delay: -0.4,
-      width: "100%",
-    });
-
-    tl.to("#text-area-hover h3", {
-      delay: -0.2,
-      width: "100%",
-    });
-
-    tl.to("#text-area-hover h4", {
-      delay: -0.6,
-      width: "100%",
-    });
+  useEffect(() => {
+    AOS.init();
   });
 
   return (
     <>
       <div className="about w-full min-h-screen bg-[#111111]  pt-14 lg:pt-24 pb-10">
-        <div className="max-w-screen-lg mx-auto pt-10 lg:pt-0 w-full h-full text-white whitespace-nowrap text-wrap tracking-widest px-7 lg:px-0">
+        <div
+          className="max-w-screen-lg mx-auto pt-10 lg:pt-0 w-full h-full text-white whitespace-nowrap text-wrap tracking-widest px-7 lg:px-0"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          data-aos-anchor-placement="top-center"
+        >
           <h2 className="text-2xl text-white text-center leading-loose	lg:text-5xl lg:leading-loose ">
             Hi !
           </h2>

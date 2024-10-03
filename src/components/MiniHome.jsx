@@ -47,7 +47,13 @@ function Home() {
 
   return (
     <div className="home w-full max-h-screen bg-[#111111] pt-[100px] relative z-[-10] lg:pt-[150px]">
-      <div className="max-w-screen h-[300px]  px-8  object-cover lg:px-0 lg:w-[800px] lg:h-[400px] rounded-lg object-cover   lg:object-contain  mx-auto ">
+      <div
+        className="max-w-screen h-[300px]  px-8  object-cover lg:px-0 lg:w-[800px] lg:h-[400px] rounded-lg object-cover   lg:object-contain  mx-auto "
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos-once="true"
+      >
         <img
           className="max-w-full h-full mx-auto object-cover  lg:object-contain "
           src={Pic}
