@@ -34,10 +34,10 @@ const Projects = () => {
     {
       id: 4,
       image:
-        "https://imgs.search.brave.com/t_E8QMVlVgVMsrFyxvYlcoDfNvvnodEMlOloe24BG8k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYXd3d2FyZHMu/Y29tL2F3YXJkcy9z/dWJtaXNzaW9ucy8y/MDIzLzAyLzYzZWY1/MTRjZWVmMjcyMjU1/NDA1NjcuanBn",
-      title: "We Think Elastic",
-      desc: "Website with a great UI design and have animated background and elements for better user  by using Gsap & Locomotive.",
-      view: "https://www.linkedin.com/posts/dev-tiwari-3bb04a297_mernstackdeveloper-mentorship-webdesign-activity-7168129390705426432-RORJ?utm_source=share&utm_medium=member_android",
+        "https://cdn.dribbble.com/userupload/7790921/file/original-0e2ac0c0c0019169b1cfcd9f6f8262dc.png?resize=2048x1536&vertical=center",
+      title: "CourseCo",
+      desc: "CourseCo is a web application that helps students to find the best courses available online. It provides a platform for students to learn with the help of mentors and grow by providing them with the best courses available on our platform.",
+      view: "https://courseco-app.vercel.app/",
     },
   ];
 
@@ -59,7 +59,7 @@ const Projects = () => {
               <img
                 src={image}
                 alt=""
-                className="max-w-[250px] h-[250px] rounded-lg object-cover group-hover:scale-110 duration-500 lg:max-w-[350px] lg:h-[350px] "
+                className="max-w-[275px] h-[250px] rounded-lg object-cover group-hover:scale-110 duration-500 lg:max-w-[380px] lg:h-[350px] "
               />
               {/* overlay section */}
               <div className="absolute left-0 top-[-100%] opacity-0 group-hover:opacity-100 group-hover:top-[0] p-4 w-full h-full bg-black/60 group-hover:backdrop-blur-sm duration-500 ">
