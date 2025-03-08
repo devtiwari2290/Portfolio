@@ -59,7 +59,7 @@ const Projects = () => {
               <img
                 src={image}
                 alt=""
-                className="max-w-[275px] h-[250px] rounded-lg object-cover group-hover:scale-110 duration-500 lg:max-w-[380px] lg:h-[350px] "
+                className="max-w-[280px] h-[250px] rounded-lg object-cover group-hover:scale-110 duration-500 lg:max-w-[400px] lg:h-[350px] "
               />
               {/* overlay section */}
               <div className="absolute left-0 top-[-100%] opacity-0 group-hover:opacity-100 group-hover:top-[0] p-4 w-full h-full bg-black/60 group-hover:backdrop-blur-sm duration-500 ">
