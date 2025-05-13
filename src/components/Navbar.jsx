@@ -9,7 +9,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import { Routes, Route } from "react-router-dom";
 import { style } from "framer-motion/client";
-import resume from "../assets/Dev Tiwari Resume4.pdf";
+import resume from "../assets/Resume.pdf";
 import { FaFileDownload } from "react-icons/fa";
 
 function Navbar() {
