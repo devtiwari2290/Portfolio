@@ -1,4 +1,5 @@
 import React from "react";
+import WithAspire from "../assets/WithAspire.png";
 import { div } from "three/webgpu";
 import { Link } from "react-router-dom";
 import { Slide, Fade } from "react-awesome-reveal";
@@ -33,6 +34,23 @@ const Projects = () => {
 
     {
       id: 4,
+      image: "https://starclassic.in/assets/bglogo-BHNpE5CQ.webp",
+      title: "Star Classic",
+      desc: "Star Classic Home Appliances, the largest residential, commercial, and industrial air cooler manufacturer.",
+      view: "https://starclassic.in/",
+    },
+
+    {
+      id: 5,
+      image:
+        "https://imgs.search.brave.com/YBRJd5f7PM-PIdTgOkFs34H9H2eSMMGeOZlzdXHnrmc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5kZXNpZ25ydXNo/LmNvbS90aW55bWNl/X2ltYWdlcy80MDI5/NTAvY29udmVyc2lv/bnMvQWNlLUluZm93/YXktd2Vic2l0ZS1j/b250ZW50LmpwZw",
+      title: "WithAspire",
+      desc: "At With Aspire, we believe that every great achievement begins with a powerful aspiration. Founded with the mission to empower businesses through innovative IT solutions, we are passionate about turning ambition into reality. ",
+      view: "https://withaspire.in/",
+    },
+
+    {
+      id: 6,
       image:
         "https://cdn.dribbble.com/userupload/7790921/file/original-0e2ac0c0c0019169b1cfcd9f6f8262dc.png?resize=2048x1536&vertical=center",
       title: "CourseCo",
@@ -59,8 +77,9 @@ const Projects = () => {
               <img
                 src={image}
                 alt=""
-                className="max-w-[280px] h-[250px] rounded-lg object-cover group-hover:scale-110 duration-500 lg:max-w-[400px] lg:h-[350px] "
+                className="w-[300px] h-[300px] rounded-lg object-cover group-hover:scale-110 duration-500 lg:w-[400px] lg:h-[350px]"
               />
+
               {/* overlay section */}
               <div className="absolute left-0 top-[-100%] opacity-0 group-hover:opacity-100 group-hover:top-[0] p-4 w-full h-full bg-black/60 group-hover:backdrop-blur-sm duration-500 ">
                 <div className="space-y-4">
